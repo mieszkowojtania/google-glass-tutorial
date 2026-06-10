@@ -17,3 +17,28 @@
     background-color: #ddd;
     color: black;
 }
+.containment-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.left-info-box,
+.right-info-box {
+    width: 45%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+.left-info-box {
+    margin-left: 10px;
+}
+.right-info-box {
+    margin-right: 10px;
+}
+.info-box-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.info-box-content {
+    font-size: 16px;
+}
